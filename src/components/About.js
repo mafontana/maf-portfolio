@@ -5,6 +5,9 @@ class About extends Component {
     render () {
         return (
             <div className="About">
+                <div className="headshot">
+                    <img id="headshot" src={require("../Yoga_headshot.JPG")}></img>
+                </div>
                 <div className="bio">
                     Hi, I'm Meredith! Originally from Houston Texas, I now call Denver home.
                     I am a former paleontologist now venturing into the 
@@ -17,9 +20,7 @@ class About extends Component {
                     
                     Odio ac vitae suspendisse ut. Id sunt a ac vestibulum nec, montes nam placerat nulla tellus magna, tellus enim at justo. Quam dignissim curabitur vel in, ut massa mauris posuere. Donec elit eligendi, in vestibulum nisl, suspendisse dictum lacinia. Lacus etiam neque praesent nibh fermentum morbi, dis quam lorem dolore rhoncus non, commodo ut donec ac montes, molestie per. Condimentum litora, tempor per sagittis nisl viverra gravida nec, orci tortor et dictumst sed, wisi augue pede urna erat. Eu elit, in sed ligula praesent, leo et pellentesque nunc, consectetuer ipsum ut vulputate vestibulum vitae aliquam. Sunt wisi ac justo est iaculis et. Erat pellentesque amet felis, dis gravida. Malesuada cras pede iaculis turpis, donec diam justo, tortor eget congue velit magna, dolor praesent, vitae luctus elit ac mauris ornare. Amet vitae lacus turpis fringilla amet quis, etiam rhoncus laoreet magna pede amet dolor, arcu volutpat nunc, quam mollis ut elit non ante, amet mauris nam amet velit pede vulputate. Ut orci eleifend, lectus sint sit vel egestas erat est, sed eget quam amet a ante non.
                 </div>
-                <div className="headshot">
-                <img id="headshot" src={require("../Yoga_headshot.JPG")}></img>
-                </div>
+                
 
           </div>   
         )

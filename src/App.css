@@ -46,15 +46,25 @@ h2 {
   height: auto;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
+  align-items: center;
+
 }
 
 .bio {
-  margin-left: 50%;
+  margin-left: 10%;
   margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 0;
 }
 
 #headshot {
   height: 50vh;
   width: auto;
+  margin-left: 50px;
+}
+
+.headshot {
+  display: flex;
+  align-content: center;
 }
