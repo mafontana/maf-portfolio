@@ -7,15 +7,26 @@ class NavBar extends Component {
             <div className="NavBar">
                 <div className="navbar row">
                     <div className="col s1">
-                        <h2>M</h2>
+                        <div className="Logo">
+                            <div className="M">
+                                M
+                            </div>
+                            <div className="name">
+                                eredith Fontana
+                            </div>
+                        </div>
                     </div>
                     <div className="col s7"></div>
                     <div className="col s4">
                         <ul id="NavList">
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Portfolio</li>
-                            <li>Resume</li> 
+                            
+                                <li id="home">Home</li>
+                           
+                            <li id="about">About</li>
+
+                            <li id="portfolio">Portfolio</li>
+
+                            <li id="resume">Resume</li> 
                         </ul>
                     </div>
                   

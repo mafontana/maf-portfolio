@@ -34,13 +34,39 @@
   color: white;
 }
 
-h2 {
+/* h2 {
   font-size: 30px;
   font-style: initial;
   color: white;
   margin: 0;
   padding: 0;
+} */
+
+.M {
+  font-size: 30px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  width: 35px;
+  transition: 2s;
 }
+
+.M:hover {
+  transform: rotateY(150deg);
+  color: #F0DB5B;
+}
+
+
+.name {
+  font-size: 30px;
+  color: white;
+  margin: 0;
+  padding: 0;
+  transition: 2s;
+}
+
+
+
 
 .About {
   height: auto;
@@ -61,10 +87,51 @@ h2 {
 #headshot {
   height: 50vh;
   width: auto;
-  margin-left: 50px;
+  margin-left: 100px;
 }
 
 .headshot {
   display: flex;
   align-content: center;
 }
+
+
+#home {
+  transition: .6s;
+}
+
+#about {
+  transition: .6s;
+}
+
+#portfolio {
+  transition: .6s;
+}
+
+#resume {
+  transition: .6s;
+}
+
+#home:hover {
+  color: #F0DB5B;
+}
+
+#about:hover {
+  color: #F0DB5B;
+}
+
+#portfolio:hover {
+  color: #F0DB5B;
+}
+
+#resume:hover {
+  color: #F0DB5B;
+}
+
+/* .Logo {
+  width: 30px;
+  margin-top: 10px;
+  transition: 2s;
+
+} */
+
