@@ -131,7 +131,7 @@ a {
   transition: .6s;
 }
 
-a:hover{
+a:hover {
   color: #F0DB5B;
 }
 
@@ -139,6 +139,17 @@ a:hover{
 .Logo {
   display: flex;
   justify-content: start;
-
 }
 
+.projectBoxes {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px;
+}
+
+.projectBox {
+  height: 300px;
+  width: 300px;
+  border: 2px solid black
+
+}

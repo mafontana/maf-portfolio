@@ -3,8 +3,8 @@ import Header from './components/Header';
 import NavBar from './components/NavBar';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
 import './App.css'
-import { StickyContainer, Sticky } from 'react-sticky';
 
 
 class App extends Component {
@@ -39,6 +39,7 @@ handleMouseLeave = () => {
       <Header />
       <About />
       <Portfolio />
+      <Resume />
      
       </div>
     );

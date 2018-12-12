@@ -9,6 +9,7 @@ class About extends Component {
                     <img id="headshot" src={require("../Yoga_headshot.JPG")}></img>
                 </div>
                 <div className="bio">
+                <h1>About Me</h1>
                     Hi, I'm Meredith! Originally from Houston Texas, I now call Denver home.
                     I am a former paleontologist now venturing into the 
                     exciting world of web development.
