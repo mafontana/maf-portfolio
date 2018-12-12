@@ -22,14 +22,10 @@ class NavBar extends Component {
                         
                     <div className="col s4">
                         <ul id="NavList">
-                            
-                                <li id="home">Home</li>
-                           
-                            <li id="about">About</li>
-
-                            <li id="portfolio">Portfolio</li>
-
-                            <li id="resume">Resume</li> 
+                            <li id="home"><a href="#">Home</a></li>
+                            <li id="about"><a href="#">About</a></li>
+                            <li id="portfolio"><a href="#">Portfolio</a></li>
+                            <li id="resume"><a href="#">Resume</a></li> 
                         </ul>
                     </div>
                   

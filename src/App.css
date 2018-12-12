@@ -126,38 +126,15 @@
   align-content: center;
 }
 
-
-#home {
+a {
+  color: white;
   transition: .6s;
 }
 
-#about {
-  transition: .6s;
-}
-
-#portfolio {
-  transition: .6s;
-}
-
-#resume {
-  transition: .6s;
-}
-
-#home:hover {
+a:hover{
   color: #F0DB5B;
 }
 
-#about:hover {
-  color: #F0DB5B;
-}
-
-#portfolio:hover {
-  color: #F0DB5B;
-}
-
-#resume:hover {
-  color: #F0DB5B;
-}
 
 .Logo {
   display: flex;
