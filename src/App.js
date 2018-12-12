@@ -11,23 +11,31 @@ class App extends Component {
   constructor() {
     super()
     this.state={
-     logoAnimation: "name"
+     logoHover: false
     }
   }
   
   handleHover = () => {
     console.log("hover clicked!")
     this.setState({
-      logoAnimation: "nameHover"
+      logoHover: true
     })
   } 
 
- 
+handleMouseLeave = () => {
+  console.log("hover left")
+  this.setState({
+    logoHover: false
+  })
+  }
   
   render() {
     return (
       <div className="App">
-      <NavBar handleHover={this.handleHover} className={this.state.logoAnimation}/>
+      <NavBar 
+        handleHover={this.handleHover} 
+        logoHover={this.state.logoHover}
+        handleMouseLeave={this.state.handleMouseLeave} />
       <Header />
       <About />
       <Portfolio />

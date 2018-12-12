@@ -51,9 +51,24 @@
   transition: 2s;
 }
 
-.M:hover {
-  transform: rotateY(150deg);
+.Mhover {
+  /* transform: rotateY(150deg);
+  color: #F0DB5B; */
   color: #F0DB5B;
+  animation: Mchange 4s;
+  font-size: 30px
+}
+
+@keyframes Mchange {
+  from {
+    color: white;
+    font-size: 30px;
+  }
+  to {
+    color: #F0DB5B;
+    font-size: 30px;
+    transform: rotateY(150deg)
+  }
 }
 
 

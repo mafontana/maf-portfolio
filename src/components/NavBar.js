@@ -8,10 +8,10 @@ class NavBar extends Component {
                 <div className="navbar row">
                     <div className="col s3">
                         <div className="Logo">
-                            <div className="M" onMouseEnter={this.props.handleHover}>
+                            <div className={this.props.logoHover ? "Mhover" : "M"} onMouseOver={this.props.handleHover}>
                                 M
                             </div>
-                            <div className={this.props.className} >
+                            <div className={this.props.logoHover ? "nameHover" : "name"} onMouseOver={this.props.handleMouseLeave} >
                         eredith Fontana
                         </div>
                         </div>
