@@ -6,17 +6,20 @@ class NavBar extends Component {
         return (
             <div className="NavBar">
                 <div className="navbar row">
-                    <div className="col s1">
+                    <div className="col s3">
                         <div className="Logo">
-                            <div className="M">
+                            <div className="M" onMouseEnter={this.props.handleHover}>
                                 M
                             </div>
-                            <div className="name">
-                                eredith Fontana
-                            </div>
+                            <div className={this.props.className} >
+                        eredith Fontana
+                        </div>
                         </div>
                     </div>
-                    <div className="col s7"></div>
+                    <div className="col s5">
+                    
+                    </div>
+                        
                     <div className="col s4">
                         <ul id="NavList">
                             

@@ -59,13 +59,29 @@
 
 .name {
   font-size: 30px;
-  color: white;
-  margin: 0;
-  padding: 0;
+  margin-left: 0;
+  padding-left: 0;
   transition: 2s;
+  display: none;
 }
 
+.nameHover {
+  color: white;
+  font-size: 30px;
+  margin-left: 0;
+  padding-left: 0;
+  animation: fadeIn 4s;
+}
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+  
+}
 
 
 .About {
@@ -128,10 +144,9 @@
   color: #F0DB5B;
 }
 
-/* .Logo {
-  width: 30px;
-  margin-top: 10px;
-  transition: 2s;
+.Logo {
+  display: flex;
+  justify-content: start;
 
-} */
+}
 
