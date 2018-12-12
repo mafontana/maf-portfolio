@@ -5,9 +5,12 @@ class NavBar extends Component {
     render () {
         return (
             <div className="NavBar">
-                <div className="row">
-                    <div class="col s8"></div>
-                    <div class="col s4">
+                <div className="navbar row">
+                    <div className="col s1">
+                        <h2>M</h2>
+                    </div>
+                    <div className="col s7"></div>
+                    <div className="col s4">
                         <ul id="NavList">
                             <li>Home</li>
                             <li>About</li>
