@@ -6,6 +6,7 @@
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-headroom": "^2.2.4",
+    "react-pdf": "^4.0.0",
     "react-scripts": "2.1.1",
     "react-smart-sticky": "^0.1.1",
     "react-sticky": "^6.0.3"

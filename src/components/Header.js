@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NavBar from './NavBar';
+
 
 class Header extends Component {
     render () {
@@ -8,15 +8,20 @@ class Header extends Component {
             
             
                 <div className="intro-overlay">
+                    <div className="headingText"> 
                     <div className="row">
-                        <div class="col s3"></div>
-                        <div class="col s5">
-                            <h3 class="italic">Hello, I'm Meredith!</h3>
-                            <h1>Welcome to my web
-                            development portfolio.</h1>
-                            <h4>Grab some coffee and check out some of my work.</h4>
+                    
+                        <div class="col s4"></div>
+                        <div class="col s4">
+                        <div className="introText">
+                           
+                            <p className="hello">Hello, I'm Meredith!</p>
+                            <p className="introText">I'm a full-stack web developer in Denver, Colorado with the mind of a scientist and an eye for design.</p>
+                            <p className="introTextTwo">Grab some coffee and check out my work.</p>
                         </div>
-                        <div className="col s3"></div>
+                        </div>
+                        <div className="col s4"></div>
+                </div>
                 </div>
             </div> 
           </div>   

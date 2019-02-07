@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
-import NavBar from './components/NavBar';
+import NavBarTwo from './components/NavBarTwo';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
-import Resume from './components/Resume';
+// import Resume from './components/Resume';
 import './App.css'
+import { Document, Page } from 'react-pdf';
 
 
 class App extends Component {
   constructor() {
     super()
     this.state={
-     logoHover: false
+     logoHover: false,
+     numPages: null,
+    pageNumber: 1,
     }
   }
   
@@ -31,15 +34,13 @@ handleMouseLeave = () => {
   
   render() {
     return (
-      <div className="App">
-      <NavBar 
-        handleHover={this.handleHover} 
-        logoHover={this.state.logoHover}
-        handleMouseLeave={this.state.handleMouseLeave} />
+      <div>
+      <NavBarTwo />
       <Header />
       <About />
       <Portfolio />
-      <Resume />
+     
+      
      
       </div>
     );
@@ -47,3 +48,15 @@ handleMouseLeave = () => {
 }
 
 export default App;
+
+
+// <NavBar 
+// handleHover={this.handleHover} 
+// logoHover={this.state.logoHover}
+// handleMouseLeave={this.state.handleMouseLeave} />
+
+// <Resume />
+
+// <Document file="/Users/meredith/portfolio/portfolio/src/Resume_Final.pdf">
+       
+//       </Document>
