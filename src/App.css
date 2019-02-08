@@ -3,7 +3,7 @@
   position: relative;
   width: 100%;
   height: 100%;
-  min-height: 500px;
+  min-height: 800px;
   padding: 0;
   margin: 0;
   background-size: cover;
@@ -106,6 +106,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-bottom: 15vh;
 }
 
 #aboutImage {
@@ -119,11 +120,11 @@
   margin-bottom: 0;
   border: 4px solid #F2EE68;
   padding: 10vh;
+  font-size: 2.3vh;
 }
 
 #headshot {
   height: 40vh;
-  width: auto;
   margin-left: 100px;
   padding: 2vh;
   border: 3px solid gray;
@@ -185,7 +186,7 @@ a:hover {
 }
 
 #logo {
-  width: 500px;
+  width: 80vh;
   margin: 0 auto;
   display: block;
   margin-bottom: 20px;
@@ -212,4 +213,42 @@ p.introText {
 
 p.introTextTwo {
   font-size: 3.8vh;
+}
+
+.techBackground {
+  height: 30vh;
+  border: 20px solid #DCDBD7;
+  margin-top: 1vh;
+  display: flex;
+  flex-direction: row;
+  padding: 3vh;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+
+img.techIcon {
+  width: 10vh;
+  transition: .6s;
+}
+
+img.techIcon:hover {
+  transform: scale(1.4)
+}
+
+#techIconCSS {
+  width: 7.1vh;
+  transition: .6s;
+}
+
+#techIconCSS:hover {
+  width: 7.1vh;
+  transform: scale(1.4)
+}
+
+#skills {
+  width: 20vh;
+  display: block;
+  margin: 0 auto;
 }

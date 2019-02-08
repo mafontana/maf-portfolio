@@ -3,6 +3,7 @@ import Header from './components/Header';
 import NavBarTwo from './components/NavBarTwo';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
+import Tech from './components/Tech'
 // import Resume from './components/Resume';
 import './App.css'
 import { Document, Page } from 'react-pdf';
@@ -38,6 +39,7 @@ handleMouseLeave = () => {
       <NavBarTwo />
       <Header />
       <About />
+      <Tech />
       <Portfolio />
      
       
