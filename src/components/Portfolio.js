@@ -5,7 +5,7 @@ class Portfolio extends Component {
     render () {
         return (
             <div className="Portfolio">
-                <h1>Portfolio</h1>
+            <img id="projects" src={require("../projects.png")}></img>
                 <div className="projectBoxes">
                     <div className="projectBox"></div>
                     <div className="projectBox"></div>
