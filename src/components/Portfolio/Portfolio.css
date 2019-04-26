@@ -1,0 +1,24 @@
+#projects {
+    width: 30vh;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .projectBoxes {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+  }
+  
+  .projectBox {
+    height: 45vh;
+    width: 45vh;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+  }
+
+  #geoguidePicture {
+     width: 100%;
+    
+  }

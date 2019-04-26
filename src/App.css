@@ -12,6 +12,8 @@
   background-attachment: fixed;
 }
 
+
+
 .NavBar {
   /* width: 100%; */
   height: 50px;
@@ -151,20 +153,6 @@ a:hover {
   justify-content: start;
 }
 
-.projectBoxes {
-  display: flex;
-  justify-content: space-around;
-  margin: 100px;
-}
-
-.projectBox {
-  height: 300px;
-  width: 300px;
-  border: 2px solid black
-
-}
-
-
 .Resume {
   background-image: url("/Users/meredith/portfolio/portfolio/src/Meredith Fontana NPR Resume 2018.pdf");
   position: relative;
@@ -206,6 +194,12 @@ a:hover {
 
 p.hello {
   font-size: 5vh;
+}
+
+p {
+  /* font-family: 'Cormorant Garamond', serif; */
+  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Montserrat', sans-serif; */
 }
 
 p.introText {
@@ -254,8 +248,3 @@ img.techIcon:hover {
   margin: 0 auto;
 }
 
-#projects {
-  width: 30vh;
-  display: block;
-  margin: 0 auto;
-}

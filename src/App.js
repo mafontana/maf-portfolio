@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Header from './components/Header';
 import NavBarTwo from './components/NavBarTwo';
 import About from './components/About';
-import Portfolio from './components/Portfolio';
+import Portfolio from './components/Portfolio/Portfolio';
 import Tech from './components/Tech'
 // import Resume from './components/Resume';
 import './App.css'
