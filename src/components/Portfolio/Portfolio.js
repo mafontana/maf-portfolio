@@ -9,14 +9,16 @@ class Portfolio extends Component {
             <img id="projects" src={require("./projects.png")}></img>
                 <div className="projectBoxes">
                     <div className="projectBox">
-                        <img id="geoguidePicture" src={require("./weatherapp_screenshot.png")}></img>
+                        <img className="geoguidePicture" src={require("./weatherapp_screenshot.png")}></img>
                     </div>
 
                     <div className="projectBox">
-                        <img id="geoguidePicture" src={require("./geoguide_screenshot_5.png")}></img>
+                        <img className="geoguidePicture" src={require("./geoguide_screenshot.png")}></img>
                     </div>
                    
-                    <div className="projectBox"></div>
+                    <div className="projectBox">
+                        <img className="geoguidePicture" src={require("./movieapp_screenshot_1.png")}></img>
+                    </div>
                 
                    
                 </div>

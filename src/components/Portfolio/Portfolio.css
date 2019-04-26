@@ -18,7 +18,6 @@
     justify-content: center;
   }
 
-  #geoguidePicture {
-     width: 100%;
-    
+  .geoguidePicture {
+     width: 100%; 
   }
