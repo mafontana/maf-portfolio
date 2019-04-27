@@ -18,6 +18,7 @@
     "react-pdf-js": "^4.0.2",
     "react-reveal": "^1.2.2",
     "react-scripts": "2.1.1",
+    "react-scroll-up-button": "^1.6.4",
     "react-scrollable-anchor": "^0.6.1",
     "react-smart-sticky": "^0.1.1",
     "react-sticky": "^6.0.3",

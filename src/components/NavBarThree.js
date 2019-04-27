@@ -5,6 +5,7 @@ import Tech from './Tech'
 import Portfolio from './Portfolio/Portfolio'
 import Resume from './Resume'
 import ScrollableAnchor from 'react-scrollable-anchor'
+import ScrollUpButton from "react-scroll-up-button";
 
 
 
@@ -12,11 +13,13 @@ class NavBarThree extends Component {
     render () {
         return (
             <div>
-            <a href='#section1'> Home </a>
-            <a href='#section2'> About </a>
-            <a href='#section3'> Skills </a>
-            <a href='#section4'> Projects </a>
-            <a href='#section5'> Experience </a>
+            <div className="navbarLinks">
+                <a href='#section1'> Home </a>
+                <a href='#section2'> About </a>
+                <a href='#section3'> Skills </a>
+                <a href='#section4'> Projects </a>
+                <a href='#section5'> Experience </a>
+            </div>
             <ScrollableAnchor id={'section1'}>
             <div> <Header /> </div>
           </ScrollableAnchor>
@@ -35,6 +38,9 @@ class NavBarThree extends Component {
         <ScrollableAnchor id={'section5'}>
         <div> <Resume /> </div>
       </ScrollableAnchor>
+      <ScrollUpButton />
+
+
           </div>
 
 

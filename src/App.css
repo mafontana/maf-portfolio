@@ -147,7 +147,7 @@
 
 .tileButton {
   margin: 2vh;
-  margin-top: 10vh;
+  margin-top: 8vh;
   background-color: white;
   transition: 0.5s;
  
@@ -158,7 +158,7 @@
 
 .tileButton2 {
   margin: 2vh;
-  margin-top: 17vh;
+  margin-top: 16vh;
   background-color: white;
   transition: 0.5s;
  
@@ -186,13 +186,13 @@
 
  a {
    padding-bottom: 3vh;
-  /* color: black; */
-  /* transition: .6s; */
+  color: black;
+  transition: .6s;
 }
 
 a:hover {
   color: #F0DB5B;
-} */
+}  
 
 
 .Logo {
@@ -212,6 +212,16 @@ a:hover {
   background-position: center;
   overflow: hidden;
   background-attachment: fixed;
+}
+
+.navbarLinks {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+padding-left: 40vh;
+padding-right: 40vh;
+ font-size: 3vh;
+ padding-top: 4vh;
 }
 
 
