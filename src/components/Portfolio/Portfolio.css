@@ -82,9 +82,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
- 
   flex-wrap: wrap;
-  height: 70%;
+  height: 50%;
 }
 
 h3 {

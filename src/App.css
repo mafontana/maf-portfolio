@@ -138,14 +138,40 @@
   align-content: center;
 }
 
-a {
+.tileButtons {
+  height: 35%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.tileButton {
+  /* margin: 2vh; */
+  margin-top: 7vh;
+  background-color: white;
+  transition: 0.5s;
+  padding: 1vh;
+  margin-left: 1vh;
+  margin-right: 1vh;
+}
+
+.tileButton:focus {
+  background-color: white;
+}
+.tileButton:hover {
+  background-color: #E2E1E3;
+  transition: 0.5s
+}
+
+
+/* a {
   color: black;
   transition: .6s;
 }
 
 a:hover {
   color: #F0DB5B;
-}
+} */
 
 
 .Logo {
@@ -221,7 +247,7 @@ p.introTextTwo {
 
 .tech {
   background-color: #E2E1E3;
-  /* height: 50vh; */
+  box-shadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)'
 }
 
 .techBackground {

@@ -53,9 +53,10 @@ let textOverImageTile3= this.state.isTextOverImage3Visible ? "textOverImage3" : 
             
 
             <div className="tile">
+            
                 <div className="tileDisplay1" onMouseEnter={this.toggleProjectDisplayTile1} onMouseLeave={this.toggleProjectDisplayTile1} >
                     <div className={textOverImageTile1}>
-                        <div className="paragraph1"> 
+                        <div className="paragraph1">
                         <h3>Tech Used:</h3>
                         <div className="techUsed">
                             <p>React.js</p>
@@ -67,10 +68,26 @@ let textOverImageTile3= this.state.isTextOverImage3Visible ? "textOverImage3" : 
                             <p>CSS</p>
                             <p>HTML</p>
                         </div>
+                        <div className="tileButtons">
+                            <a href="https://world-weather-webapp.herokuapp.com/" target="_blank">
+                                <button className="tileButton">
+                                Try out the app
+                                </button>
+                            </a> 
+                            <a href="https://github.com/mafontana/weather-map-app" target="_blank">
+                                <button className="tileButton">
+                                See on GitHub
+                                </button>
+                            </a>
+                        </div>
                         </div>
                     </div>
+                    
                 </div>
+                
                 </div>
+
+                
 
                 <div className="tile">
                 <div className="tileDisplay2" onMouseEnter={this.toggleProjectDisplayTile2} onMouseLeave={this.toggleProjectDisplayTile2} >
