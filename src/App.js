@@ -38,11 +38,7 @@ handleMouseLeave = () => {
     return (
       <div>
       <NavBarTwo />
-      <Header />
-      <About />
-      <Tech />
-      <Portfolio />
-      <Resume />
+      
      
       
      

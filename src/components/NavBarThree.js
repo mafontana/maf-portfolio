@@ -1,21 +1,61 @@
 import React, { Component } from 'react';
+import About from './About';
+import Header from './Header'
+import Tech from './Tech'
+import Portfolio from './Portfolio/Portfolio'
+import Resume from './Resume'
+import ScrollableAnchor from 'react-scrollable-anchor'
+
 
 
 class NavBarThree extends Component {
     render () {
         return (
-            <div className="NavBarThree">
-                <div className="NavBarLinks">
-                    <ul id="NavList">
-                        <li id="home"><a href="#">Home</a></li>
-                        <li id="about"><a href="#">About</a></li>
-                        <li id="portfolio"><a href="#">Portfolio</a></li>
-                        <li id="resume"><a href="#">Resume</a></li> 
-                </ul>
-                </div>
-          </div>   
+            <div>
+            <a href='#section1'> Home </a>
+            <a href='#section2'> About </a>
+            <a href='#section3'> Skills </a>
+            <a href='#section4'> Projects </a>
+            <a href='#section5'> Experience </a>
+            <ScrollableAnchor id={'section1'}>
+            <div> <Header /> </div>
+          </ScrollableAnchor>
+            <ScrollableAnchor id={'section2'}>
+              <div> <About /> </div>
+            </ScrollableAnchor>
+
+            <ScrollableAnchor id={'section3'}>
+            <div> <Tech /> </div>
+          </ScrollableAnchor>
+           
+          <ScrollableAnchor id={'section4'}>
+          <div> <Portfolio/> </div>
+        </ScrollableAnchor>
+
+        <ScrollableAnchor id={'section5'}>
+        <div> <Resume /> </div>
+      </ScrollableAnchor>
+          </div>
+
+
+
+
+
+
         )
     }
 }
 
 export default NavBarThree
+
+
+// <div className="NavBarThree">
+// <div className="NavBarLinks">
+//     <ul id="NavList">
+//         <li id="home"><a href="#">Home</a></li>
+//         <li id="about"><a href="#">About</a></li>
+//         <li id="portfolio"><a href="#">Portfolio</a></li>
+//         <li id="resume"><a href="#">Resume</a></li> 
+// </ul>
+// </div>
+// </div>  
