@@ -14,10 +14,6 @@ class Portfolio extends Component {
         }
       }
 
-
-
-
-
 toggleProjectDisplayTile1 = () => {
     this.setState((prevState) => {
         return {isTextOverImage1Visible: !prevState.isTextOverImage1Visible}
@@ -39,11 +35,6 @@ toggleProjectDisplayTile3 = () => {
       })
       console.log("you hovered3")
 }
-
-
-
-
-
 
     render () {
 
