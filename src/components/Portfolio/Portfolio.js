@@ -95,15 +95,26 @@ let textOverImageTile3= this.state.isTextOverImage3Visible ? "textOverImage3" : 
                     <div className="paragraph2"> 
                         <h3>Tech Used:</h3>
                         <div className="techUsed">
-                        <p>React Native</p>
-                        <p>Mapbox</p>
-                        <p>MongoDB</p>
-                        <p>Express</p>
-                        <p>Node.js</p>
-                        <p>CSS</p>
-                        <p>HTML</p>
+                            <p>React Native</p>
+                            <p>Mapbox</p>
+                            <p>MongoDB</p>
+                            <p>Express</p>
+                            <p>Node.js</p>
+                            <p>CSS</p>
+                            <p>HTML</p>
                         </div>
-                        
+                        <div className="tileButtons">
+                        <a href="https://www.youtube.com/watch?v=FwqQZZcBBNA" target="_blank">
+                            <button className="tileButton">
+                            See demo
+                            </button>
+                        </a> 
+                        <a href="https://github.com/mafontana/GeoGuide-frontend" target="_blank">
+                            <button className="tileButton">
+                            See on GitHub
+                            </button>
+                        </a>
+                    </div>
                     </div>
                 </div>
             </div>
