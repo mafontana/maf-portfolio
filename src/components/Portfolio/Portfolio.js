@@ -105,12 +105,12 @@ let textOverImageTile3= this.state.isTextOverImage3Visible ? "textOverImage3" : 
                         </div>
                         <div className="tileButtons">
                         <a href="https://www.youtube.com/watch?v=FwqQZZcBBNA" target="_blank">
-                            <button className="tileButton">
+                            <button className="tileButton2">
                             See demo
                             </button>
                         </a> 
                         <a href="https://github.com/mafontana/GeoGuide-frontend" target="_blank">
-                            <button className="tileButton">
+                            <button className="tileButton2">
                             See on GitHub
                             </button>
                         </a>
@@ -134,6 +134,19 @@ let textOverImageTile3= this.state.isTextOverImage3Visible ? "textOverImage3" : 
                     <p>CSS</p>
                     <p>HTML</p>
                 </div>
+
+                <div className="tileButtons">
+                <a href="https://www.youtube.com/watch?v=FwqQZZcBBNA" target="_blank">
+                    <button className="tileButton">
+                    See demo
+                    </button>
+                </a> 
+                <a href="https://github.com/mafontana/GeoGuide-frontend" target="_blank">
+                    <button className="tileButton">
+                    See on GitHub
+                    </button>
+                </a>
+            </div>
 
                 </div>
             </div>

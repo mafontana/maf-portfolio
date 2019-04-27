@@ -146,13 +146,25 @@
 }
 
 .tileButton {
-  /* margin: 2vh; */
-  margin-top: 7vh;
+  margin: 2vh;
+  margin-top: 10vh;
   background-color: white;
   transition: 0.5s;
-  padding: 1vh;
+ 
   margin-left: 1vh;
   margin-right: 1vh;
+  padding: 1vh;
+}
+
+.tileButton2 {
+  margin: 2vh;
+  margin-top: 17vh;
+  background-color: white;
+  transition: 0.5s;
+ 
+  margin-left: 1vh;
+  margin-right: 1vh;
+  padding: 1vh;
 }
 
 .tileButton:focus {
@@ -163,10 +175,19 @@
   transition: 0.5s
 }
 
+.tileButton2:focus {
+  background-color: white;
+}
+.tileButton2:hover {
+  background-color: #E2E1E3;
+  transition: 0.5s
+}
 
-/* a {
-  color: black;
-  transition: .6s;
+
+ a {
+   padding-bottom: 3vh;
+  /* color: black; */
+  /* transition: .6s; */
 }
 
 a:hover {
