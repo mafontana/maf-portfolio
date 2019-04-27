@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import './Portfolio.css'
+import Zoom from 'react-reveal/Zoom';
+import Slide from 'react-reveal/Slide';
 
 
 class Portfolio extends Component {
@@ -51,12 +53,15 @@ let textOverImageTile3= this.state.isTextOverImage3Visible ? "textOverImage3" : 
 
 
         return (
-            <div className="portfolio">
+            <div>
             <img id="projects" src={require("./projects.png")}></img>
+            <div className="portfolio">
+            
+            <Slide left cascade>
                 <div className="projectBoxes">
             
 
-
+            <div className="tile">
                 <div className="tileDisplay1" onMouseEnter={this.toggleProjectDisplayTile1} onMouseLeave={this.toggleProjectDisplayTile1} >
                     <div className={textOverImageTile1}>
                         <div className="paragraph1"> 
@@ -74,7 +79,9 @@ let textOverImageTile3= this.state.isTextOverImage3Visible ? "textOverImage3" : 
                         </div>
                     </div>
                 </div>
+                </div>
 
+                <div className="tile">
                 <div className="tileDisplay2" onMouseEnter={this.toggleProjectDisplayTile2} onMouseLeave={this.toggleProjectDisplayTile2} >
                 <div className={textOverImageTile2}>
                     <div className="paragraph2"> 
@@ -92,7 +99,10 @@ let textOverImageTile3= this.state.isTextOverImage3Visible ? "textOverImage3" : 
                     </div>
                 </div>
             </div>
+            </div>
 
+
+ <div className="tile">
             <div className="tileDisplay3" onMouseEnter={this.toggleProjectDisplayTile3} onMouseLeave={this.toggleProjectDisplayTile3} >
             <div className={textOverImageTile3}>
                 <div className="paragraph3"> 
@@ -109,8 +119,12 @@ let textOverImageTile3= this.state.isTextOverImage3Visible ? "textOverImage3" : 
                 </div>
             </div>
         </div>
+</div>
+            </div>
+        </Slide>
 
-        </div>
+
+</div>
 
           </div>   
         )

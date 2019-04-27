@@ -1,3 +1,9 @@
+.portfolio {
+  display: flex;
+ 
+  justify-content: center;
+}
+
 #projects {
     width: 30vh;
     padding-top: 10vh;
@@ -10,6 +16,7 @@
     display: flex;
     justify-content: space-around;
     margin-top: 10vh;
+    width: 80%;
   }
 
   .projectImage {
@@ -26,11 +33,18 @@
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  height: 60vh;
-  width: 60vh;
+  height: 50vh;
+  width: 50vh;
   transition: 0.5s;
   border: 4vh solid #1789FE;
+  
 
+}
+
+
+
+.tile {
+  padding: 2vw;
 }
 
 .tileDisplay1:hover {
@@ -60,16 +74,17 @@
   flex-direction: column;
   color: white;
   font-size: 2.5vh;
+  height: 80%
   
 }
 
 .techUsed { 
   display: flex;
   justify-content: center;
-  align-content: center;
   align-items: center;
-  flex-direction: column;
+ 
   flex-wrap: wrap;
+  height: 70%;
 }
 
 h3 {
@@ -78,7 +93,7 @@ h3 {
 
 
 p {
-  margin: .5vh;
+  margin: 2vh;
   padding: 0;
 }
 
@@ -90,8 +105,8 @@ p {
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  height: 60vh;
-  width: 60vh;
+  height: 50vh;
+  width: 50vh;
   transition: 0.5s;
   border: 4vh solid orange;
 }
@@ -137,8 +152,8 @@ p {
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  height: 60vh;
-  width: 60vh;
+  height: 50vh;
+  width: 50vh;
   transition: 0.5s;
   border: 4vh solid #4BA1BD;
 }

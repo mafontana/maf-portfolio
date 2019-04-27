@@ -1,18 +1,20 @@
 import React, { Component } from 'react';
-
+import Slide from 'react-reveal/Slide';
 
 class About extends Component {
     render () {
         return (
             <div className="about">
+            <Slide left>
                 <div className="headshot">
                     <img id="headshot" src={require("../Yoga_headshot.JPG")}></img>
                 </div>
+            </Slide>
+            <Slide right>
                 <div className="bio">
                     <img  id="aboutImage" src={require("../about.png")}></img>
                     <p>
-                    I create beautifully designed full-stack web and mobile apps that improve people's lives. <br /> <br />
-                    I care about dogs, tacos, and clean code that is both readable and elegant. <br /> <br />
+                    I create beautifully designed full-stack web and mobile apps using clean code that is both readable and elegant. <br /> <br />
 
                     As a former scientist, I bring an analytical approach to my development process along
                     with an eye for detail. <br /> <br />
@@ -27,6 +29,7 @@ class About extends Component {
                     How can I contribute to your next project? Lets connect! 
                     </p>
                 </div>
+            </Slide>
           </div>   
         )
     }
