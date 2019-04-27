@@ -210,15 +210,13 @@ p.introTextTwo {
 
 .techBackground {
   height: 30vh;
-  border: 20px solid #DCDBD7;
+  background: #DCDBD7;
   margin-top: 1vh;
   display: flex;
   flex-direction: row;
   padding: 3vh;
   align-items: center;
   justify-content: space-between;
-  margin-left: 2vh;
-  margin-right: 2vh;
 }
 
 img.techIcon {

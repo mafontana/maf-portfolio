@@ -51,7 +51,7 @@ let textOverImageTile3= this.state.isTextOverImage3Visible ? "textOverImage3" : 
 
 
         return (
-            <div className="Portfolio">
+            <div className="portfolio">
             <img id="projects" src={require("./projects.png")}></img>
                 <div className="projectBoxes">
             
@@ -78,10 +78,13 @@ let textOverImageTile3= this.state.isTextOverImage3Visible ? "textOverImage3" : 
                 <div className="tileDisplay2" onMouseEnter={this.toggleProjectDisplayTile2} onMouseLeave={this.toggleProjectDisplayTile2} >
                 <div className={textOverImageTile2}>
                     <div className="paragraph2"> 
-                        <h2>Tech Used:</h2>
+                        <h3>Tech Used:</h3>
                         <div className="techUsed">
                         <p>React Native</p>
                         <p>Mapbox</p>
+                        <p>MongoDB</p>
+                        <p>Express</p>
+                        <p>Node.js</p>
                         <p>CSS</p>
                         <p>HTML</p>
                         </div>
@@ -93,11 +96,16 @@ let textOverImageTile3= this.state.isTextOverImage3Visible ? "textOverImage3" : 
             <div className="tileDisplay3" onMouseEnter={this.toggleProjectDisplayTile3} onMouseLeave={this.toggleProjectDisplayTile3} >
             <div className={textOverImageTile3}>
                 <div className="paragraph3"> 
-                    <h2>Tech Used:</h2>
+                    <h3>Tech Used:</h3>
+                    <div className="techUsed">
                     <p>React.js</p>
-                    <p>Mapbox</p>
+                    <p>RESTful Services</p>
+                    <p>Express</p>
+                    <p>Node.js</p>
                     <p>CSS</p>
                     <p>HTML</p>
+                </div>
+
                 </div>
             </div>
         </div>
