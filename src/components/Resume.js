@@ -90,8 +90,8 @@ class Resume extends Component {
       boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
     }}
   >
-    <h3 style={{ color: '#8ED649' }}>Master of Science Degree in Evolutionary Biology</h3>
-    <h4 style={{ color: '#61b8ff' }}>Subtitle</h4>
+    <h3 style={{ color: 'white' }}>Master of Science Degree in Evolutionary Biology</h3>
+    <h4 style={{ color: '#61b8ff' }}>The George Washington University</h4>
     <p>
       Est incididunt sint eu minim dolore mollit velit velit commodo ex nulla
       exercitation. Veniam velit adipisicing anim excepteur nostrud magna

@@ -136,12 +136,12 @@ let textOverImageTile3= this.state.isTextOverImage3Visible ? "textOverImage3" : 
                 </div>
 
                 <div className="tileButtons">
-                <a href="https://www.youtube.com/watch?v=FwqQZZcBBNA" target="_blank">
+                <a href="https://movie-crud-app-maf.herokuapp.com/" target="_blank">
                     <button className="tileButton">
                     See demo
                     </button>
                 </a> 
-                <a href="https://github.com/mafontana/GeoGuide-frontend" target="_blank">
+                <a href="https://github.com/mafontana/movies-project-frontend" target="_blank">
                     <button className="tileButton">
                     See on GitHub
                     </button>
