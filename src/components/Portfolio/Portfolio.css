@@ -9,15 +9,174 @@
     justify-content: space-around;
     margin: 100px;
   }
+
+
   
-  .projectBox {
+  .projectImage {
+    position: relative;
     height: 45vh;
     width: 45vh;
-    border: 2px solid black;
+    border: 4px solid black;
     display: flex;
     justify-content: center;
   }
 
-  .geoguidePicture {
-     width: 100%; 
-  }
+
+
+
+.tileDisplay1 {
+  background-image: url("./weatherapp_screenshot_2.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 50vh;
+  transition: 0.5s;
+  border: 4vh solid #1789FE;
+
+}
+
+.tileDisplay1:hover {
+  background-size: 110%;
+  background-position: center;
+}
+
+.noTextOverImage  {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s;
+
+}
+
+.textOverImage {
+  opacity: 1;
+  transition: 0.5s;
+  background: rgba(0,0,0,0.65);
+  height: 100%;
+}
+
+.paragraph1 {
+  
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-size: 2vh;
+  
+}
+
+.techUsed { 
+ 
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* margin-top: 20%; */
+}
+
+h3 {
+  font-size: 3vh;
+}
+
+
+p {
+  margin: .5vh;
+  padding: 0;
+}
+
+/* This for the second tile  */
+
+.tileDisplay2 {
+  
+  background-image: url("./geoguide_screenshot.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 50vh;
+  transition: 0.5s;
+  border: 4vh solid orange;
+}
+
+.tileDisplay2:hover {
+  background-size: 110%;
+  background-position: center;
+}
+
+
+.noTextOverImage2  {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s;
+
+}
+
+.textOverImage2 {
+  opacity: 1;
+  transition: 0.5s;
+  background: rgba(0,0,0,0.65);
+  height: 100%;
+}
+
+.paragraph2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 0;
+  margin-top: 0;
+  color: white;
+  font-size: 3vh;
+}
+
+/* This for the third tile  */
+
+.tileDisplay3 {
+  
+  background-image: url("./movieapp_screenshot_1.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 50vh;
+  transition: 0.5s;
+  border: 4vh solid #4BA1BD;
+}
+
+.tileDisplay3:hover {
+  background-size: 110%;
+  background-position: center;
+}
+
+
+.noTextOverImage3  {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s;
+
+}
+
+.textOverImage3 {
+  opacity: 1;
+  transition: 0.5s;
+  background: rgba(0,0,0,0.65);
+  height: 100%;
+}
+
+.paragraph3 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 0;
+  margin-top: 0;
+  color: white;
+  font-size: 3vh;
+}
