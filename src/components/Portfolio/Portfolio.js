@@ -82,9 +82,7 @@ let textOverImageTile3= this.state.isTextOverImage3Visible ? "textOverImage3" : 
                         </div>
                         </div>
                     </div>
-                    
                 </div>
-                
                 </div>
 
                 
@@ -97,11 +95,11 @@ let textOverImageTile3= this.state.isTextOverImage3Visible ? "textOverImage3" : 
                         <div className="techUsed">
                             <p>React Native</p>
                             <p>Mapbox</p>
+                            <p>ViroReact (AR)</p>
                             <p>MongoDB</p>
                             <p>Express</p>
                             <p>Node.js</p>
-                            <p>CSS</p>
-                            <p>HTML</p>
+                         
                         </div>
                         <div className="tileButtons">
                         <a href="https://www.youtube.com/watch?v=FwqQZZcBBNA" target="_blank">
