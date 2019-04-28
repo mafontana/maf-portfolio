@@ -325,3 +325,24 @@ p.introTextTwo {
   padding-top: 10vh;
   padding-bottom: 5vh;
 }
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  background: #E2E1E3;
+  height: 50vh;
+ 
+}
+
+.footerIcons {
+  display: flex;
+  
+}
+
+
+.icon {
+  margin: 3vw;
+}
