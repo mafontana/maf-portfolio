@@ -54,7 +54,7 @@ class Resume extends Component {
 
   <TimelineItem
   key="001"
-  dateText="4/2015 – 4/2012"
+  dateText="4/2015 – 4/2016"
   dateInnerStyle={{ background: '#F0DB5B', color: '#000' }}
 >
   <h2 style={{ color: '#8ED649' }}>Paleontologist</h2>
@@ -73,7 +73,7 @@ class Resume extends Component {
   
   <TimelineItem
     key="001"
-    dateText="8/2012 – 8/2012"
+    dateText="8/2012 – 8/2014"
     dateInnerStyle={{ background: '#F0DB5B', color: '#000' }}
   >
     <h2 style={{ color: '#8ED649' }}>Student Research Associate</h2>
@@ -89,7 +89,7 @@ class Resume extends Component {
 
   <TimelineItem
     key="002"
-    dateText="04/2009 – 11/2010"
+    dateText="8/2012 – 8/2014"
     dateInnerStyle={{ background: '#F0DB5B', color: '#000' }}
     bodyContainerStyle={{
       background: '#ddd',
@@ -106,7 +106,7 @@ class Resume extends Component {
 
   <TimelineItem
     key="001"
-    dateText="8/2012 – 8/2012"
+    dateText="8/2012 – 8/2014"
     dateInnerStyle={{ background: '#F0DB5B', color: '#000' }}
   >
     <h2 style={{ color: '#8ED649' }}>Graduate Teaching Assistant in Biology</h2>
