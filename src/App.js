@@ -39,10 +39,7 @@ handleMouseLeave = () => {
     return (
       <div>
       <NavBarTwo />
- 
-     
-      
-     
+
       </div>
     );
   }
