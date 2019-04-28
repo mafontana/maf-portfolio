@@ -318,3 +318,10 @@ p.introTextTwo {
   padding-top: 30px;
 }
 
+#experienceLogo {
+  width: 35vh;
+  display: block;
+  margin: 0 auto;
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+}
