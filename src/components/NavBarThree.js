@@ -20,7 +20,7 @@ class NavBarThree extends Component {
                <div className="navbarLink"><a href='#section3'> Skills </a></div>
                <div className="navbarLink"><a href='#section4'> Projects </a></div>
                <div className="navbarLink"><a href='#section5'> Experience </a></div>
-               <div className="navbarLink"><a href='#section6'> Footer </a></div>
+               <div className="navbarLink"><a href='#section6'> Contact </a></div>
             </div>
             <ScrollableAnchor id={'section1'}>
             <div> <Header /> </div>
