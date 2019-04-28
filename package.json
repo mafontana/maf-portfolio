@@ -11,6 +11,7 @@
     "firebase": "^5.10.1",
     "font-awesome": "^4.7.0",
     "react": "^16.6.3",
+    "react-burger-menu": "^2.6.10",
     "react-dom": "^16.6.3",
     "react-dual-timeline": "^0.3.0",
     "react-headroom": "^2.2.4",
