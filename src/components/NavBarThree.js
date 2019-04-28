@@ -15,11 +15,12 @@ class NavBarThree extends Component {
         return (
             <div>
             <div className="navbarLinks">
-                <a href='#section1'> Home </a>
-                <a href='#section2'> About </a>
-                <a href='#section3'> Skills </a>
-                <a href='#section4'> Projects </a>
-                <a href='#section5'> Experience </a>
+               <div className="navbarLink"> <a href='#section1'> Home </a></div>
+               <div className="navbarLink"> <a href='#section2'> About </a></div>
+               <div className="navbarLink"><a href='#section3'> Skills </a></div>
+               <div className="navbarLink"><a href='#section4'> Projects </a></div>
+               <div className="navbarLink"><a href='#section5'> Experience </a></div>
+               <div className="navbarLink"><a href='#section6'> Footer </a></div>
             </div>
             <ScrollableAnchor id={'section1'}>
             <div> <Header /> </div>
@@ -41,7 +42,7 @@ class NavBarThree extends Component {
       </ScrollableAnchor>
       <ScrollUpButton />
 
-      <ScrollableAnchor id={'section5'}>
+      <ScrollableAnchor id={'section6'}>
       <div> <Footer /> </div>
     </ScrollableAnchor>
     <ScrollUpButton />
