@@ -23,6 +23,8 @@ class About extends Component {
                     Coding allows me to combine the logic I have developed as a scientist 
                     with my love of art and design, which I strive to express in each of my web apps. <br /> <br />
 
+                    Those who work with me call me humble, kind, and driven, which are values I strive to live by in everything that I do. <br /> <br />
+
                     I have a relentless desire to learn and am always looking for new opportunities to expand my
                     skills and advance my craft. <br /> <br />
 

@@ -36,7 +36,7 @@ class Resume extends Component {
  <TimelineItem
     key="001"
     dateText="3/2016 – present"
-    dateInnerStyle={{ background: '#F0DB5B', color: '#000' }}
+    dateInnerStyle={{ background: '#F0DB5B', color: '#000'}}
   >
     <h2 style={{ color: '#8ED649' }}>Yoga Instructor</h2>
     <h4>Core Power Yoga</h4>
