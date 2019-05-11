@@ -8,6 +8,9 @@ import Resume from './components/Resume'
 // import Resume from './components/Resume';
 import './App.css'
 import { Document, Page } from 'react-pdf';
+import BurgerMenu from './components/BurgerMenu';
+import Sticky from 'react-stickynode';
+
 
 
 
@@ -38,7 +41,14 @@ handleMouseLeave = () => {
   render() {
     return (
       <div>
+        <div>
+        <BurgerMenu  />
+        </div>
+        <Sticky top='#header' bottomBoundary='#content'>
+
       <NavBarTwo />
+      </Sticky>
+
 
       </div>
     );

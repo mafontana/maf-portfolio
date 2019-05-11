@@ -13,7 +13,7 @@ class About extends Component {
             <Slide right>
                 <div className="bio">
                     <img  id="aboutImage" src={require("../about.png")}></img>
-                    <p>
+                    <div className="aboutText">
                     I create beautifully designed full-stack web and mobile apps using clean code that is both readable and elegant. <br /> <br />
 
                     As a former scientist, I bring an analytical approach to my development process along
@@ -29,7 +29,7 @@ class About extends Component {
                     skills and advance my craft. <br /> <br />
 
                     How can I contribute to your next project? Lets connect! 
-                    </p>
+                    </div>
                 </div>
             </Slide>
           </div>   

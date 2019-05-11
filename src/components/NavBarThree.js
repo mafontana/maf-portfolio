@@ -7,13 +7,31 @@ import Resume from './Resume'
 import Footer from './Footer'
 import ScrollableAnchor from 'react-scrollable-anchor'
 import ScrollUpButton from "react-scroll-up-button";
+import AppBar from '@material-ui/core/AppBar'
+import Toolbar from '@material-ui/core/Toolbar'
+import MenuIcon from '@material-ui/icons/Menu'
+import IconButton from '@material-ui/core/IconButton'
 
 
 
 class NavBarThree extends Component {
     render () {
         return (
+          
             <div>
+         
+            <AppBar
+            position="fixed"
+            style={{
+                backgroundColor: 'white',
+                boxShadow: 'none',
+                padding: '10px 0px',
+            }}
+            
+            >
+            <Toolbar>
+            <img id="logo" src={require("../Resume_logo.png")}></img>
+            </Toolbar>
             <div className="navbarLinks">
                <div className="navbarLink"> <a href='#section1'> Home </a></div>
                <div className="navbarLink"> <a href='#section2'> About </a></div>
@@ -22,6 +40,7 @@ class NavBarThree extends Component {
                <div className="navbarLink"><a href='#section5'> Experience </a></div>
                <div className="navbarLink"><a href='#section6'> Contact </a></div>
             </div>
+            </AppBar>
             <ScrollableAnchor id={'section1'}>
             <div> <Header /> </div>
           </ScrollableAnchor>
@@ -46,7 +65,7 @@ class NavBarThree extends Component {
       <div> <Footer /> </div>
     </ScrollableAnchor>
     <ScrollUpButton />
-
+   
 
 
 
@@ -56,7 +75,7 @@ class NavBarThree extends Component {
 
 
 
-
+        
 
         )
     }
